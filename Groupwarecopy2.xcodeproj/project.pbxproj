@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		813966F0A9387437EEBBF443 /* Pods_Groupwarecopy2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD7FF5AA6414F1501B4F3AC2 /* Pods_Groupwarecopy2.framework */; };
 		B3391C8E29E7B22500A6735B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3391C8D29E7B22500A6735B /* AppDelegate.swift */; };
 		B3391C9029E7B22500A6735B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3391C8F29E7B22500A6735B /* SceneDelegate.swift */; };
 		B3391C9229E7B22500A6735B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3391C9129E7B22500A6735B /* ViewController.swift */; };
@@ -31,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A54C1C7B9A6CC6F8A157FF2 /* Pods-Groupwarecopy2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groupwarecopy2.debug.xcconfig"; path = "Target Support Files/Pods-Groupwarecopy2/Pods-Groupwarecopy2.debug.xcconfig"; sourceTree = "<group>"; };
+		AD7FF5AA6414F1501B4F3AC2 /* Pods_Groupwarecopy2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Groupwarecopy2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3391C8A29E7B22500A6735B /* Groupwarecopy2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groupwarecopy2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3391C8D29E7B22500A6735B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3391C8F29E7B22500A6735B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		B3391CB729E7B25B00A6735B /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		B3391CB829E7B25B00A6735B /* ReadMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadMessageViewController.swift; sourceTree = "<group>"; };
 		B3391CC029E7B26700A6735B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E7A6EFB433BF0FB762502441 /* Pods-Groupwarecopy2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Groupwarecopy2.release.xcconfig"; path = "Target Support Files/Pods-Groupwarecopy2/Pods-Groupwarecopy2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,12 +65,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				813966F0A9387437EEBBF443 /* Pods_Groupwarecopy2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18D1A000F206E1E4522F9AB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A54C1C7B9A6CC6F8A157FF2 /* Pods-Groupwarecopy2.debug.xcconfig */,
+				E7A6EFB433BF0FB762502441 /* Pods-Groupwarecopy2.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6BA05ED1916E2612398DE28A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD7FF5AA6414F1501B4F3AC2 /* Pods_Groupwarecopy2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B3391C8129E7B22500A6735B = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +97,8 @@
 				B3391CB129E7B25B00A6735B /* ViewController */,
 				B3391C8C29E7B22500A6735B /* Groupwarecopy2 */,
 				B3391C8B29E7B22500A6735B /* Products */,
+				18D1A000F206E1E4522F9AB2 /* Pods */,
+				6BA05ED1916E2612398DE28A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3391C9E29E7B22700A6735B /* Build configuration list for PBXNativeTarget "Groupwarecopy2" */;
 			buildPhases = (
+				A1D2403866623A0B2EB969C6 /* [CP] Check Pods Manifest.lock */,
 				B3391C8629E7B22500A6735B /* Sources */,
 				B3391C8729E7B22500A6735B /* Frameworks */,
 				B3391C8829E7B22500A6735B /* Resources */,
+				4DE7304C841F7CEE66B74230 /* [CP] Embed Pods Frameworks */,
+				904B42B1B3C95644C9FE6096 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -204,6 +232,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DE7304C841F7CEE66B74230 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Groupwarecopy2/Pods-Groupwarecopy2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Groupwarecopy2/Pods-Groupwarecopy2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Groupwarecopy2/Pods-Groupwarecopy2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		904B42B1B3C95644C9FE6096 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Groupwarecopy2/Pods-Groupwarecopy2-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Groupwarecopy2/Pods-Groupwarecopy2-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Groupwarecopy2/Pods-Groupwarecopy2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1D2403866623A0B2EB969C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Groupwarecopy2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B3391C8629E7B22500A6735B /* Sources */ = {
@@ -368,6 +455,7 @@
 		};
 		B3391C9F29E7B22700A6735B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A54C1C7B9A6CC6F8A157FF2 /* Pods-Groupwarecopy2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -396,6 +484,7 @@
 		};
 		B3391CA029E7B22700A6735B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7A6EFB433BF0FB762502441 /* Pods-Groupwarecopy2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
