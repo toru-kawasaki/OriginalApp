@@ -1,11 +1,12 @@
 //
 //  AppDelegate.swift
-//  Groupwarecopy2
+//  Groupware
 //
-//  Created by PC-SYSKAI556 on 2023/04/13.
+//  Created by PC-SYSKAI556 on 2023/03/30.
 //
 
 import UIKit
+import FirebaseCore
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
         return true
     }
 

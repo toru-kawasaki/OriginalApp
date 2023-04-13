@@ -78,7 +78,6 @@
 				9A54C1C7B9A6CC6F8A157FF2 /* Pods-Groupwarecopy2.debug.xcconfig */,
 				E7A6EFB433BF0FB762502441 /* Pods-Groupwarecopy2.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -93,8 +92,6 @@
 		B3391C8129E7B22500A6735B = {
 			isa = PBXGroup;
 			children = (
-				B3391CC029E7B26700A6735B /* GoogleService-Info.plist */,
-				B3391CB129E7B25B00A6735B /* ViewController */,
 				B3391C8C29E7B22500A6735B /* Groupwarecopy2 */,
 				B3391C8B29E7B22500A6735B /* Products */,
 				18D1A000F206E1E4522F9AB2 /* Pods */,
@@ -113,6 +110,8 @@
 		B3391C8C29E7B22500A6735B /* Groupwarecopy2 */ = {
 			isa = PBXGroup;
 			children = (
+				B3391CC029E7B26700A6735B /* GoogleService-Info.plist */,
+				B3391CB129E7B25B00A6735B /* ViewController */,
 				B3391CA829E7B25100A6735B /* View */,
 				B3391CA129E7B23D00A6735B /* Model */,
 				B3391C8D29E7B22500A6735B /* AppDelegate.swift */,
