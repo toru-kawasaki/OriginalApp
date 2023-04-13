@@ -13,6 +13,21 @@
 		B3391C9529E7B22500A6735B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3391C9329E7B22500A6735B /* Main.storyboard */; };
 		B3391C9729E7B22700A6735B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3391C9629E7B22700A6735B /* Assets.xcassets */; };
 		B3391C9A29E7B22700A6735B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3391C9829E7B22700A6735B /* LaunchScreen.storyboard */; };
+		B3391CA529E7B23D00A6735B /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3391CA229E7B23D00A6735B /* ScheduleData.swift */; };
+		B3391CA629E7B23D00A6735B /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3391CA329E7B23D00A6735B /* Schedule.swift */; };
+		B3391CA729E7B23D00A6735B /* MessageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3391CA429E7B23D00A6735B /* MessageData.swift */; };
+		B3391CAD29E7B25100A6735B /* ScheduleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3391CA929E7B25100A6735B /* ScheduleTableViewCell.xib */; };
+		B3391CAE29E7B25100A6735B /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3391CAA29E7B25100A6735B /* ScheduleTableViewCell.swift */; };
+		B3391CAF29E7B25100A6735B /* MessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3391CAB29E7B25100A6735B /* MessageTableViewCell.swift */; };
+		B3391CB029E7B25100A6735B /* MessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3391CAC29E7B25100A6735B /* MessageTableViewCell.xib */; };
+		B3391CB929E7B25B00A6735B /* UserResistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3391CB229E7B25B00A6735B /* UserResistViewController.swift */; };
+		B3391CBA29E7B25B00A6735B /* ScheduleResistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3391CB329E7B25B00A6735B /* ScheduleResistViewController.swift */; };
+		B3391CBB29E7B25B00A6735B /* SendMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3391CB429E7B25B00A6735B /* SendMessageViewController.swift */; };
+		B3391CBC29E7B25B00A6735B /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3391CB529E7B25B00A6735B /* CalendarViewController.swift */; };
+		B3391CBD29E7B25B00A6735B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3391CB629E7B25B00A6735B /* LoginViewController.swift */; };
+		B3391CBE29E7B25B00A6735B /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3391CB729E7B25B00A6735B /* MenuViewController.swift */; };
+		B3391CBF29E7B25B00A6735B /* ReadMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3391CB829E7B25B00A6735B /* ReadMessageViewController.swift */; };
+		B3391CC129E7B26700A6735B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3391CC029E7B26700A6735B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +39,21 @@
 		B3391C9629E7B22700A6735B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3391C9929E7B22700A6735B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3391C9B29E7B22700A6735B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3391CA229E7B23D00A6735B /* ScheduleData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
+		B3391CA329E7B23D00A6735B /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		B3391CA429E7B23D00A6735B /* MessageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageData.swift; sourceTree = "<group>"; };
+		B3391CA929E7B25100A6735B /* ScheduleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScheduleTableViewCell.xib; sourceTree = "<group>"; };
+		B3391CAA29E7B25100A6735B /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		B3391CAB29E7B25100A6735B /* MessageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewCell.swift; sourceTree = "<group>"; };
+		B3391CAC29E7B25100A6735B /* MessageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageTableViewCell.xib; sourceTree = "<group>"; };
+		B3391CB229E7B25B00A6735B /* UserResistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserResistViewController.swift; sourceTree = "<group>"; };
+		B3391CB329E7B25B00A6735B /* ScheduleResistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleResistViewController.swift; sourceTree = "<group>"; };
+		B3391CB429E7B25B00A6735B /* SendMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMessageViewController.swift; sourceTree = "<group>"; };
+		B3391CB529E7B25B00A6735B /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		B3391CB629E7B25B00A6735B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B3391CB729E7B25B00A6735B /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		B3391CB829E7B25B00A6735B /* ReadMessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadMessageViewController.swift; sourceTree = "<group>"; };
+		B3391CC029E7B26700A6735B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +70,8 @@
 		B3391C8129E7B22500A6735B = {
 			isa = PBXGroup;
 			children = (
+				B3391CC029E7B26700A6735B /* GoogleService-Info.plist */,
+				B3391CB129E7B25B00A6735B /* ViewController */,
 				B3391C8C29E7B22500A6735B /* Groupwarecopy2 */,
 				B3391C8B29E7B22500A6735B /* Products */,
 			);
@@ -56,6 +88,8 @@
 		B3391C8C29E7B22500A6735B /* Groupwarecopy2 */ = {
 			isa = PBXGroup;
 			children = (
+				B3391CA829E7B25100A6735B /* View */,
+				B3391CA129E7B23D00A6735B /* Model */,
 				B3391C8D29E7B22500A6735B /* AppDelegate.swift */,
 				B3391C8F29E7B22500A6735B /* SceneDelegate.swift */,
 				B3391C9129E7B22500A6735B /* ViewController.swift */,
@@ -65,6 +99,41 @@
 				B3391C9B29E7B22700A6735B /* Info.plist */,
 			);
 			path = Groupwarecopy2;
+			sourceTree = "<group>";
+		};
+		B3391CA129E7B23D00A6735B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3391CA229E7B23D00A6735B /* ScheduleData.swift */,
+				B3391CA329E7B23D00A6735B /* Schedule.swift */,
+				B3391CA429E7B23D00A6735B /* MessageData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B3391CA829E7B25100A6735B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3391CA929E7B25100A6735B /* ScheduleTableViewCell.xib */,
+				B3391CAA29E7B25100A6735B /* ScheduleTableViewCell.swift */,
+				B3391CAB29E7B25100A6735B /* MessageTableViewCell.swift */,
+				B3391CAC29E7B25100A6735B /* MessageTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B3391CB129E7B25B00A6735B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B3391CB229E7B25B00A6735B /* UserResistViewController.swift */,
+				B3391CB329E7B25B00A6735B /* ScheduleResistViewController.swift */,
+				B3391CB429E7B25B00A6735B /* SendMessageViewController.swift */,
+				B3391CB529E7B25B00A6735B /* CalendarViewController.swift */,
+				B3391CB629E7B25B00A6735B /* LoginViewController.swift */,
+				B3391CB729E7B25B00A6735B /* MenuViewController.swift */,
+				B3391CB829E7B25B00A6735B /* ReadMessageViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +196,10 @@
 			files = (
 				B3391C9A29E7B22700A6735B /* LaunchScreen.storyboard in Resources */,
 				B3391C9729E7B22700A6735B /* Assets.xcassets in Resources */,
+				B3391CB029E7B25100A6735B /* MessageTableViewCell.xib in Resources */,
+				B3391CAD29E7B25100A6735B /* ScheduleTableViewCell.xib in Resources */,
 				B3391C9529E7B22500A6735B /* Main.storyboard in Resources */,
+				B3391CC129E7B26700A6735B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +210,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3391CBC29E7B25B00A6735B /* CalendarViewController.swift in Sources */,
+				B3391CA529E7B23D00A6735B /* ScheduleData.swift in Sources */,
+				B3391CAE29E7B25100A6735B /* ScheduleTableViewCell.swift in Sources */,
+				B3391CBE29E7B25B00A6735B /* MenuViewController.swift in Sources */,
+				B3391CBB29E7B25B00A6735B /* SendMessageViewController.swift in Sources */,
+				B3391CA729E7B23D00A6735B /* MessageData.swift in Sources */,
 				B3391C9229E7B22500A6735B /* ViewController.swift in Sources */,
 				B3391C8E29E7B22500A6735B /* AppDelegate.swift in Sources */,
+				B3391CBF29E7B25B00A6735B /* ReadMessageViewController.swift in Sources */,
+				B3391CAF29E7B25100A6735B /* MessageTableViewCell.swift in Sources */,
+				B3391CA629E7B23D00A6735B /* Schedule.swift in Sources */,
+				B3391CBA29E7B25B00A6735B /* ScheduleResistViewController.swift in Sources */,
 				B3391C9029E7B22500A6735B /* SceneDelegate.swift in Sources */,
+				B3391CBD29E7B25B00A6735B /* LoginViewController.swift in Sources */,
+				B3391CB929E7B25B00A6735B /* UserResistViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
